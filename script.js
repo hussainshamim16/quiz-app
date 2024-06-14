@@ -27,6 +27,12 @@ for (var key in q) {
         
     }
 }
+for (var key in q) {
+    if (q.hasOwnProperty.call(q, key)) {
+        console.log(q[key].quiestion);
+        
+    }
+}
 
 // console.log(q)
 
